@@ -1,0 +1,80 @@
+
+.modal{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .5);
+    z-index: 99;
+    
+}
+.modal .container{
+    position: fixed;
+    max-width: 600px;
+    top: 15%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 4em 2em;
+box-shadow: 0 0 20px rgba(0, 0, 0, .8);
+border-radius: 7px ;
+border-bottom: 2px solid  #660fa3;
+border-top: 2px solid  #ff8997;
+border-left: 2px solid #CC6FCE;
+border-right: 2px solid #993366;
+color: #50464F;
+}
+.close{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 5px 10px;
+    border-radius: 7px ;
+    border-bottom: 2px solid  #660fa3;
+    border-top: 2px solid  #ff8997;
+    border-left: 2px solid #CC6FCE;
+    border-right: 2px solid #993366;
+    color: #50464F;
+    box-shadow: 5px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.close svg{
+    margin-right: 5px;
+    color: #50464F;
+}
+.close:hover{
+    background: #FF8997;
+    box-shadow: 0 0 5px #993366, 0 0 5px #993366, 0 0 5px #993366, 0 0 10px #993366;
+    transform: scale(1.1);
+    font-weight: 600;
+    color: #f8f8f8;
+}
+.close svg:hover{
+    color: #f8f8f8;
+}
+.modal h2{
+    margin-bottom: 1.2em;
+    font-size:2em;
+}
+.modal span{
+    font-weight:600;
+    font-size: 1.2em;
+}
+.modal span i{
+    font-weight: 400;
+    margin-right: 1em;
+    padding: 1px 8px;
+    border-radius: 3px;
+}
+.row{
+    margin-bottom: 1em;
+}
+.modal p{
+    padding-top: .5em;
+    white-space: pre-wrap;
+}
